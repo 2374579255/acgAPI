@@ -9,7 +9,7 @@ $size = !empty($_GET['size']) ? $_GET['size'] : 'large' ;
 if(!in_array($size, $size_arr)){
 	$size = 'large';
 }
-$url = 'https://tva1.sinaimg.cn/'.$size.'/'.$sina_img.'.jpg';
+$url = 'https://lz.sinaimg.cn/'.$size.'/'.$sina_img.'.jpg';
 //解析结果
 $result=array("code"=>"200","acgurl"=>"$url");
 //Type Choose参数代码
